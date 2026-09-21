@@ -1,0 +1,56 @@
+{
+  "name": "teaboom",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "@fancyapps/ui": "^4.0.0-alpha.4",
+    "jquery": "^3.6.0",
+    "jquery-app": "^1.5.0",
+    "jquery-plugin-generator": "^1.4.0",
+    "jquery-validation": "^1.19.3",
+    "jquery.appear": "^1.0.1",
+    "jquery.transit": "^0.9.12",
+    "lazysizes": "^5.3.2",
+    "slick-carousel": "^1.8.1",
+    "svg4everybody": "^2.1.9"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pretty-html": "^2.0.10",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-shorthand": "^1.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-svgstore": "^7.0.1",
+    "gulp-twig": "^1.2.0",
+    "node-sass-tilde-importer": "^1.0.2",
+    "normalize-scss": "^7.0.1",
+    "sass": "^1.36.0",
+    "webpack-stream": "^6.1.2"
+  },
+  "scripts": {
+    "start": "gulp start",
+    "build": "gulp build"
+  },
+  "author": "BerTepesh",
+  "license": "MIT",
+  "browserslist": [
+    "> 1%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ]
+}

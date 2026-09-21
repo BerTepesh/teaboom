@@ -1,0 +1,59 @@
+@import "~@fancyapps/ui/src/Fancybox/fancybox";
+
+// body.compensate-for-scrollbar {
+// 	overflow: visible !important;
+// }
+
+// .compensate-for-scrollbar {
+// 	padding-right: 0 !important;
+// }
+
+.fancybox__backdrop {
+	background-color: rgba(225, 239, 239, .5);
+}
+
+.fancybox__slide {
+	padding: 0;
+	overflow: visible;
+}
+
+.fancybox__content {
+	padding: 95px 30px 55px 30px;
+	
+	@include media-breakpoint-up(sm) {
+		padding: 95px 70px 95px 90px;
+	}
+}
+
+.side-modal {
+	.fancybox__carousel {
+		max-width: 640px;
+		margin: 0 0 0 auto;
+		width: 100%;
+		
+		.fancybox__content {
+				width: 100%;
+				height: 100%;
+				overflow: auto;
+
+				@include media-breakpoint-up(sm) {
+					box-shadow: -10px 0 20px #bfc9cd;
+				}
+		}
+	}
+
+	.fancybox__content>.carousel__button.is-close {
+		right: 25px;
+		left: auto;
+		top: 25px;
+		width: 56px;
+		height: 56px;
+		border-radius: 50%;
+		border: 1px solid #e5eaec;
+		svg {
+				color: #000;
+				width: 12px;
+				height: 12px;
+		}
+	}
+}
